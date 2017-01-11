@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memory Game</title>
+<!-- 	<link rel="stylesheet" type="text/css" href="css/reset.css">  -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav class="clearfix">
+		<a href="#">Instructions</a>
+		<a href="#">Game</a>
+	</nav>
+	<h1>Memory Game!</h1>
+	<h2>Instructions</h2>
+	<p>Concentration, also known as Match Match, Pelmanism, Shinkei-suijaku, Pexeso, or Pairs, is a card game in which all of the cards are laid facedown on a surface and two cards are flipped face up over each turn. The object is to turn over pairs of matching cards.</p>
+	<hr>
+	<div class="board">
+	    <div class="card" id="cardOne"></div>
+	    <div class="card" id="cardTwo"></div>
+	    <div class="card" id="cardThree"></div>
+	    <div class="card" id="cardFour"></div>
+    </div>
+    <footer>
+    	<p>Created with ♥ by <span class="name">Jared Edwards</span></p>
+    </footer>
+
+<script>
+	var cardOne = 'queen';
+	var cardTwo = 'queen';
+	var cardThree = 'king';
+	var cardFour = 'king';
+
+	$('card').on('click', function() {
+    if(cardOne === cardThree){
+		alert('You found a match!');
+	}
+	else{
+		alert('These two cards do not match');
+	}
+  });
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+
+body {
+	text-align: center;
+}
+.board {
+	height: 50%;
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 20px;
+	display: inline-block;
+}
+
+.card {
+	height: 200px;
+	width: 150px;
+	border: 1px solid rgb(0,0,0);
+	background-color: yellow;
+	border-radius: 10px;
+/*	display: inline-block;*/
+	float: left;
+	margin: 8%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+h1 {
+	text-decoration: underline;
+	color: rgb(2,132,130);
+
+}
+h2 {
+	color: #ffd700;
+}
+
+p {
+	color: #516CFF;
+}
+
+span {
+	color: #ff0000;
+}
+
+nav {
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	background-color: #ffbf00;
+	color: rgb(255,255,255);
+}
+
+a {
+	
+	text-decoration: none;
+	
+	padding: 35px;
+	display: block;
+	float: left;
+}
